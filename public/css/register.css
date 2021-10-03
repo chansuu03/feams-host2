@@ -1,0 +1,26 @@
+body {
+    background-color: #343A40;
+}
+
+.reg {
+    width: 75%; 
+    margin-top:5%;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+}
+
+.gender {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}

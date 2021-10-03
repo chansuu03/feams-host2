@@ -1,0 +1,79 @@
+@font-face
+{
+    font-family: 'Simplifica';
+    src: url('../fonts/simplifica-webfont.woff2') format('woff2'),
+         url('../fonts/simplifica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* navbars */
+.navbar-custom {
+    background-color: #2A3139;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-custom .navbar-brand
+{
+    color: #0C85BB;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: white;
+}
+
+/* change active link color */
+.navbar-custom .nav-item.active .nav-link
+{
+    color: #0C85BB;
+}
+
+/* change color and bg when hover */
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+    background-color: #0C85BB;
+    border-radius: 10px;
+}
+
+.navbar-custom .navbar-text
+{
+  color: #E5E5E5;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+div#navbarSupportedContent.collapse.navbar-collapse
+{
+  margin-left: 30px;
+}
+/* end navbars */
+
+/* carousels */
+#carousel
+{
+  margin-top: 5px;
+}
+
+/* annoucements */
+/* .announces #announceHead
+{
+  font-family: 'Simplifica', Arial, sans-serif; */
+  /* color: white; */
+  /* text-transform: uppercase; */
+  /* font-size: 50px;
+  margin-left: 325px;
+} */
+
+.card
+{
+  /* background-color: #5A757F; */
+  /* background-color: #ebe9fa; */
+  border-style: solid;
+  border-color: #424242;
+  border-width: 2px;
+}
